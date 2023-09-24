@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- ======================================= -->
+<!-- HEADER -->
+<!-- ======================================= -->
+<section class="back-form">
+    <nav>
+        <a href="Home.html"><img src="img/logo.png" ></a>
+            <ul class="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="member.html">Member</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <br><br>
+                <li><a href="" id="close">Close</a></li>
+            </ul>
+        <img src="img/icon/menu.png" class="bar-icon">
+    </nav>
+
+<!-- ======================================= -->
+<!-- content -->
+<!-- ======================================= -->
+<form action="" id="member">
+    <div class="box-back">
+        <div class="form-title">
+                MEMBERSHIP FORM
+        </div>
+        <div class="form">
+            <div class="input-area">
+                <label for="full_name">Full Name</label>
+                <input type="text" class="text-area" placeholder="Enter your full name" id="full_name">
+            </div>
+
+            <div class="input-area">
+                <label for="email">Email</label>
+                <input type="text" class="text-area" placeholder="Enter your email" id="email">
+            </div>
+
+            <div class="input-area">
+                <label for="pass">Password</label>
+                <input type="password" class="text-area" placeholder="Enter your password (min 8 characters)" id="pass">
+            </div>
+
+            <div class="input-area">
+                <label>Gender</label>
+                <div class="select-gen">
+                    <input type="radio" name="gender" id="gen-male">
+                    <label for="gen-male">Male</label>
+                    <br>
+                    <input type="radio" name="gender" id="gen-female">
+                    <label for="gen-female">Female</label>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <label for="alamat">Address</label>
+                <textarea name="alamat" id="alamat" placeholder="Enter yor address"></textarea>
+            </div>
+
+            <div class="input-area">
+                <input type="checkbox" name="checkbox" id="cekbox" value="value">
+
+                <label for="cekbox" id="cek-text">Get our daily letter</label>
+            </div>
+
+
+            <div class="input-area">
+                <button type="submit" class="reg" value="register">Register</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+</section>
+
+    
+<!-- ======================================= -->
+<!-- Footer -->
+<!-- ======================================= -->
+
+<footer>
+    <div class="footer">
+        <ul class="nav-foot">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="member.html">Member</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        
+        <ul>
+            <li><a href="https://www.instagram.com/tanakaguitar/?hl=en" target="_blank"><img src="img/icon//instagram.png"></a></li>
+
+            <li><a href="https://www.youtube.com/results?search_query=Tanaka+guitar" target="_blank"><img src="img/icon//youtube.png"></a></li>
+
+            <li><a href="https://www.tiktok.com/@tanaka__guitar?lang=en" target="_blank"><img src="img/icon//tiktok.png" ></a></li>
+
+            <li><a href="https://www.facebook.com/search/top?q=tanaka%20guitar" target="_blank"><img src="img/icon/facebook.png"></a></li>
+
+            <li><a href="https://twitter.com/tanaka_guitar" target="_blank"><img src="img/icon//twitter.png"></a></li>
+
+        </ul>
+
+        <a href="home.html"><img src="img/logo.png" id="logo-foot"></a>
+    </div>
+</footer>
+    
+</body>
+<script src="./form.js"></script>
+</html>
